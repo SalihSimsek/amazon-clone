@@ -1,10 +1,21 @@
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import "./App.css";
 
 function App() {
   return (
-    <div className="app">
-      <h1>Hello from Amazon clone</h1>
-    </div>
+    <Router>
+      <div className="app">
+        <Switch>
+          <Route path="/" exact>
+            <h1>Home page</h1>
+          </Route>
+          <Route path="/login" />
+          <Route path="/checkout" />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
