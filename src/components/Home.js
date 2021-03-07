@@ -12,14 +12,16 @@ const Home = () => {
       />
       <div className="home_row">
         <Product
-          id="12321341"
+          key={1}
+          id="1"
           title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
           price={11.96}
           rating={5}
           image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_B01,204,203,200_.jpg"
         />
         <Product
-          id="12321341"
+          key={2}
+          id="2"
           title='Acer Nitro 5 Gaming Laptop, 10th Gen Intel Core i5-10300H,NVIDIA GeForce GTX 1650 Ti, 15.6" Full HD IPS 144Hz Display, 8GB DDR4,256GB NVMe SSD,WiFi 6'
           price={729.99}
           rating={5}
@@ -28,21 +30,24 @@ const Home = () => {
       </div>
       <div className="home_row">
         <Product
-          id="12321341"
+          key={3}
+          id="3"
           title="Govee Smart LED Strip Lights, 16.4ft WiFi LED Lights Work with Alexa and Google Assistant"
           price={23.99}
           rating={5}
           image="https://images-na.ssl-images-amazon.com/images/I/71FN5PwrLLL._AC_SL1500_.jpg"
         />
         <Product
-          id="12321341"
+          key={4}
+          id="4"
           title="Mkeke Compatible with iPhone Xr Case,Clear Anti-Scratch Shock Absorption Cases for 6.1 Inch"
           price={8.99}
           rating={5}
           image="https://images-na.ssl-images-amazon.com/images/I/71j2Zqi6BGL._AC_SL1250_.jpg"
         />
         <Product
-          id="12321341"
+          key={5}
+          id="5"
           title="amFilm Tempered Glass Screen Protector for Nintendo Switch 2017 (2-Pack)"
           price={7.39}
           rating={5}
@@ -51,7 +56,8 @@ const Home = () => {
       </div>
       <div className="home_row">
         <Product
-          id="12321341"
+          key={6}
+          id="6"
           title="SAMSUNG LC49RG90SSNXZA 49-Inch CRG9 Curved Gaming Monitor, Black"
           price={899.99}
           rating={5}

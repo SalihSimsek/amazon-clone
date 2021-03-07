@@ -5,6 +5,7 @@ import "./App.css";
 
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Checkout from './components/Checkout'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           </Route>
           <Route path="/checkout">
             <Header />
-            <h1>Checkout</h1>
+            <Checkout/>
           </Route>
         </Switch>
       </div>
