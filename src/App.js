@@ -33,8 +33,6 @@ function App() {
     }
   }, [])
 
-  console.log(user)
-
   return (
     <Router>
       <div className="app">
